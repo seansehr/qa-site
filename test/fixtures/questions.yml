@@ -1,0 +1,10 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  question: "Question 1?"
+  answer: "Answer 1"
+
+two:
+  question: "Question 2?"
+  answer: "Answer 2"
