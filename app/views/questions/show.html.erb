@@ -8,5 +8,11 @@
   <%= @question.answer %>
 </p>
 
+<div>User's who participated</div>
+<ul>
+<% @question.users.each do |user| %>
+  <li><%= user.email %></li>
+<% end %>
+</ul>
 <%= link_to 'Edit', edit_question_path(@question) %> |
 <%= link_to 'Back', questions_path %>
